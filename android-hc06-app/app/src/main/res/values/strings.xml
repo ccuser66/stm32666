@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">see music</string>
+    <string name="title_main">see music</string>
+    <string name="subtitle_main">Visualize music changes in real time and remotely control the STM32 audio display system.</string>
+    <string name="label_device_section">&#x8FDE;&#x63A5;&#x8BBE;&#x5907;</string>
+    <string name="label_refresh">&#x5237;&#x65B0;</string>
+    <string name="label_connect">&#x8FDE;&#x63A5;</string>
+    <string name="label_disconnected">&#x672A;&#x8FDE;&#x63A5;</string>
+    <string name="label_waiting_data">&#x7B49;&#x5F85;&#x8BBE;&#x5907;&#x6570;&#x636E;</string>
+    <string name="label_chart_section">&#x5B9E;&#x65F6;&#x663E;&#x793A;</string>
+    <string name="label_status_section">&#x8BBE;&#x5907;&#x72B6;&#x6001;</string>
+    <string name="label_remote_section">&#x8FDC;&#x7A0B;&#x63A7;&#x5236;</string>
+    <string name="field_source">&#x4FE1;&#x53F7;&#x6E90;</string>
+    <string name="field_mode">&#x663E;&#x793A;&#x6A21;&#x5F0F;</string>
+    <string name="field_fft_size">FFT &#x70B9;&#x6570;</string>
+    <string name="field_window">&#x7A97;&#x51FD;&#x7C7B;&#x578B;</string>
+    <string name="field_rms">RMS</string>
+    <string name="field_threshold">&#x62A5;&#x8B66;&#x9608;&#x503C;</string>
+    <string name="field_display_width">&#x663E;&#x793A;&#x5BBD;&#x5EA6;</string>
+    <string name="field_denoise">&#x589E;&#x5F3A;&#x964D;&#x566A;</string>
+    <string name="field_alarm">&#x62A5;&#x8B66;&#x72B6;&#x6001;</string>
+    <string name="field_control_source">&#x53C2;&#x6570;&#x7531;&#x8C01;&#x63A7;&#x5236;</string>
+    <string name="threshold_control">&#x62A5;&#x8B66;&#x9608;&#x503C;&#xFF1A;64</string>
+    <string name="button_send_threshold">&#x4E0B;&#x53D1;&#x62A5;&#x8B66;&#x9608;&#x503C;</string>
+    <string name="button_use_hardware">&#x6062;&#x590D;&#x62E8;&#x7801;&#x63A7;&#x5236;</string>
+    <string name="button_request_state">&#x8BFB;&#x53D6;&#x5F53;&#x524D;&#x72B6;&#x6001;</string>
+    <string name="button_confirm_remote">&#x786E;&#x8BA4;&#x5E76;&#x5E94;&#x7528;</string>
+    <string name="label_denoise_switch">&#x5F00;&#x542F;&#x5E72;&#x6270;&#x6291;&#x5236;</string>
+    <string name="denoise_hint">&#x7535;&#x6E90;&#x566A;&#x58F0;&#x6291;&#x5236;&#x5728;&#x8BBE;&#x5907;&#x7AEF;&#x59CB;&#x7EC8;&#x5F00;&#x542F;&#xFF1B;&#x8FD9;&#x4E2A;&#x5F00;&#x5173;&#x53EA;&#x63A7;&#x5236;&#x989D;&#x5916;&#x7684;&#x5E72;&#x6270;&#x6291;&#x5236;&#x3002;</string>
+    <string name="hint_device_selector">&#x5DF2;&#x914D;&#x5BF9;&#x8BBE;&#x5907;</string>
+    <string name="remote_hint">&#x4E0B;&#x65B9;&#x56DB;&#x9879;&#x53C2;&#x6570;&#x786E;&#x8BA4;&#x540E;&#x7531; App &#x4E0B;&#x53D1;&#xFF1B;&#x62A5;&#x8B66;&#x9608;&#x503C;&#x4E5F;&#x7531; App &#x72EC;&#x7ACB;&#x8C03;&#x8282;&#xFF0C;&#x663E;&#x793A;&#x5BBD;&#x5EA6;&#x7531;&#x677F;&#x4E0A;&#x7535;&#x4F4D;&#x5668;&#x8C03;&#x8282;</string>
+    <string-array name="source_labels">
+        <item>&#x9EA6;&#x514B;&#x98CE;</item>
+        <item>&#x7EBF;&#x8DEF;&#x8F93;&#x5165;</item>
+    </string-array>
+
+    <string-array name="mode_labels">
+        <item>&#x65F6;&#x57DF;&#x6CE2;&#x5F62;</item>
+        <item>&#x9891;&#x57DF;&#x9891;&#x8C31;</item>
+        <item>&#x7011;&#x5E03;&#x56FE;</item>
+        <item>VU &#x7535;&#x5E73;</item>
+    </string-array>
+
+    <string-array name="window_labels">
+        <item>&#x77E9;&#x5F62;&#x7A97;</item>
+        <item>Hamming &#x7A97;</item>
+        <item>Hanning &#x7A97;</item>
+        <item>Blackman &#x7A97;</item>
+    </string-array>
+</resources>
